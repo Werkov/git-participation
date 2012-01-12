@@ -1,0 +1,15 @@
+git-participation
+=================
+
+"Github's 52 week participation"-like history. Uses 'git log' and Gnuplot to
+visualize repository history in terms of inserted/deleted lines.
+
+Usage
+-----
+
+Usage: git-participation.sh [options] [-- <git-log options>]
+Options:
+    -c int      crop changes count to int (default 1e9)
+    -h          print this help
+    -t str      Gnuplot term (default '')
+    -o filename Gnuplot output (default '')
